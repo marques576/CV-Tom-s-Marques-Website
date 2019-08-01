@@ -1,0 +1,18 @@
+HTTrack3.49-2 launched on Wed, 31 Jul 2019 10:49:09 at http://kalynnakano.com/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/*
+(webhttrack -q -%i -w http://kalynnakano.com/ -O "/home/ptelemoveis/websites/CV" -n -%P -N0 -s2 -p7 -D -a -K0 -c4 -%k -A25000 -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -%s -%u )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+10:50:39	Warning: 	Retry after error -4 (No data (connection closed)) at link kalynnakano.com/img/companies/ideo-3.png (from kalynnakano.com/)
+10:50:40	Warning: 	Retry after error -4 (No data (connection closed)) at link kalynnakano.com/img/portfolio/apollo2.png (from kalynnakano.com/)
+10:50:40	Warning: 	HTML file (1066 bytes) retransferred due to lack of cache: kalynnakano.com/visualizer/xx.html
+10:52:01	Warning: 	file not stored in cache due to bogus state (broken size, expected 1649535 got 993468): kalynnakano.com/img/portfolio/cube2.png
+10:52:01	Warning: 	Retry after error -4 (Incorrect length (993468 Bytes, 1649535 expected)) at link kalynnakano.com/img/portfolio/cube2.png (from kalynnakano.com/)
+10:52:01	Warning: 	Retry after error -4 (No data (connection closed)) at link kalynnakano.com/img/portfolio/homefit.png (from kalynnakano.com/)
+10:52:01	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): fonts.googleapis.com/css?family=Raleway:200,300
+
+HTTrack Website Copier/3.49-2 mirror complete in 4 minutes 46 seconds : 42 links scanned, 38 files written (4550066 bytes overall) [4165180 bytes received at 14563 bytes/sec], 586301 bytes transferred using HTTP compression in 12 files, ratio 31%, 1.9 requests per connection
+(No errors, 7 warnings, 0 messages)
