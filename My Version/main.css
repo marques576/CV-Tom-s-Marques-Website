@@ -1,0 +1,29 @@
+.iframe2048 {
+    vertical-align: top;
+    text-align: left;
+    overflow: scroll;
+    height: 450px;
+    width: 350px;
+}
+
+body {
+    font-family: 'B612';
+    font-size: 22px;
+}
+html, body
+{
+    height: 100%;
+}
+
+.headingtext{
+    font-size: 34px;
+}
+
+.bodytext{
+    font-size: 21px;
+}
+
+.maintable{
+    height: 100%;
+
+}
