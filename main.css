@@ -6,7 +6,7 @@
     width: 350px;
 }
 .socialHref{
-    color: #f67c5f;
+    color: #669DB3FF;
 }
 
 body {
@@ -16,10 +16,16 @@ body {
 html, body
 {
     height: 100%;
+
 }
 
-.headingtext{
+.footerText{
     font-size: 21px;
+    color: white;
+
+    header{
+        width: 20%;
+    }
 }
 
 .bodytext{
