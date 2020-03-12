@@ -6,38 +6,71 @@
     <link href="main.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=B612' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+            crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+
+
 </head>
-<div class="header" style="text-align: center;background-color: #3f3f3f; vertical-align: top;">
-    <a class="footerText">Tomás Marques576</a>
-</div>
+
 <body>
-<table class="maintable" border="0">
-    <td style="width: 350px; vertical-align: top; ">
-
-        <iframe class="iframe2048" scrolling="no" frameborder="0" src="2048-master/index.html"></iframe>
-    </td>
-
-    <td style="vertical-align: top; padding-left: 10%">
-
-        <br>
-        <br>
-        <a class="bodytext"><b>Contacts</b></a>
-        <br>
-        <p class="bodytext">
-            <a class="fa fa-envelope"></a> Email: <a class="socialHref" href="">tomasm576@gmail.com </a> <br>
-                <a class="fa fa-envelope"></a> Email: <a class="socialHref" href=""> 2191205@my.ipleiria.pt </a> <br>
-            <a class="fa fa-facebook"></a> Facebook: <a class="socialHref" href="https://www.facebook.com/tomas.marques.7"> @tomas.marques.7 </a> <br>
-            <a class="fa fa-github"></a> Github: <a class="socialHref" href="https://github.com/marques576"> @marques576 </a> <br>
-                <a class="fa fa-gitlab"></a> Gitlab: <a class="socialHref" href="https://gitlab.com/tomasm576"> @tomasm576 </a> <br>
-                    <a  class="fa fa-twitter"></a> Twitter: <a class="socialHref" href="https://twitter.com/TomasMarques576"> @TomasMarques576 </a> <br>
-                        <a class="fa fa-linkedin"></a> Linkedin: <a class="socialHref" href="https://www.linkedin.com/in/tom%C3%A1s-marques-19b531142/"> @TomasMarques </a> </p>
-
-    </td>
-    <br>
-    <td style="width: 350px; vertical-align: top; "> <iframe align="right" frameBorder="0" scrolling="no" allowtransparency="0" src="https://bitcoinaverage.com/en/widgets?widgetType=price&bgcolor=#FFFFFF&bwidth=1&bcolor=#CCCCCC&cstyle=round&fsize=16px&ffamily=verdana&fcolor=#000000&bgTransparent=solid&chartStyle=undefined&lastUpdateTime=block&currency0=USD&total=1" style="width:250px; height:275px; overflow:hidden; background-color:transparent !important;"></iframe> </td>
-</table>
-<footer style="background-color: #3c3a32;"><center class="footerText">website devolped by myself</center></footer>
+<nav class="navbar navbar-expand-lg navbar-light bg-dark">
+    <a class="navbar-brand text-white" href="#">Tomás Marques</a>
+    </div>
+</nav>
+<br><br>
+<div class="container">
+    <div class="row">
+        <div class="col-sm">
+            <iframe class="iframe2048" scrolling="no" frameborder="0" src="2048-master/index.html"></iframe>
+        </div>
+        <div class="col-sm">
+            <a class="bodytext"><b>Contacts</b></a>
+            <br>
+            <ul class="bodytext">
+                <li><a class="fa fa-envelope"></a> Email: <a class="socialHref" href="">tomasm576@gmail.com </a></li>
+                <li><a class="fa fa-envelope"></a> Email: <a class="socialHref" href=""> 2191205@my.ipleiria.pt </a>
+                </li>
+                <li><a class="fa fa-facebook"></a> Facebook: <a class="socialHref"
+                                                                href="https://www.facebook.com/tomas.marques.7">
+                    @tomas.marques.7 </a></li>
+                <li><a class="fa fa-github"></a> Github: <a class="socialHref" href="https://github.com/marques576">
+                    @marques576 </a></li>
+                <li><a class="fa fa-gitlab"></a> Gitlab: <a class="socialHref" href="https://gitlab.com/tomasm576">
+                    @tomasm576 </a></li>
+                <li><a class="fa fa-twitter"></a> Twitter: <a class="socialHref"
+                                                              href="https://twitter.com/TomasMarques576">
+                    @TomasMarques576 </a></li>
+                <li><a class="fa fa-linkedin"></a> Linkedin: <a class="socialHref"
+                                                                href="https://www.linkedin.com/in/tom%C3%A1s-marques-19b531142/">
+                    @TomasMarques</a></li>
+            </ul>
+        </div>
+        <div class="col-sm">
+            <iframe align="right" frameBorder="0" scrolling="no" allowtransparency="0"
+                    src="https://bitcoinaverage.com/en/widgets?widgetType=price&bgcolor=#FFFFFF&bwidth=1&bcolor=#CCCCCC&cstyle=round&fsize=16px&ffamily=verdana&fcolor=#000000&bgTransparent=solid&chartStyle=undefined&lastUpdateTime=block&currency0=USD&total=1"
+                    style="width:250px; height:275px; overflow:hidden; background-color:transparent !important;"></iframe>
+        </div>
+    </div>
+</div>
+</div>
+<footer id="sticky-footer" class="py-1 bg-dark text-white fixed-bottom">
+    <div class="container text-center">
+        <small>website devolped by myself</small>
+    </div>
+</footer>
 </body>
+
 
 </html>
 

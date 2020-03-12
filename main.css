@@ -1,3 +1,4 @@
+
 .iframe2048 {
     vertical-align: top;
 
@@ -13,13 +14,14 @@ body {
     font-family: 'B612';
     font-size: 22px;
 }
+/*
 html, body
 {
     height: 100%;
 
 }
-
-.footerText{
+*/
+/*.footerText{
     font-size: 21px;
     color: white;
 
@@ -27,7 +29,7 @@ html, body
         width: 20%;
     }
 }
-
+*/
 .bodytext{
     font-size: 16px;
 }
@@ -36,16 +38,5 @@ a{
     font-size: 16px;
 }
 
-.maintable{
-    height: 100%;
-    overflow:hidden;
-    width: 100%;
-}
 
-.header {
-    padding: 20px;
-    text-align: center;
-    background: #1abc9c;
-    color: white;
-    font-size: 30px;
-}
+
