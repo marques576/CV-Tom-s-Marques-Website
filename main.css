@@ -10,26 +10,6 @@
     color: #669DB3FF;
 }
 
-body {
-    font-family: 'B612';
-    font-size: 22px;
-}
-/*
-html, body
-{
-    height: 100%;
-
-}
-*/
-/*.footerText{
-    font-size: 21px;
-    color: white;
-
-    header{
-        width: 20%;
-    }
-}
-*/
 .bodytext{
     font-size: 16px;
 }
